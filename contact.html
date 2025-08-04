@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Modern Solutions</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <link rel="stylesheet" href="css/contact-style.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="all" />
+
+    
+    
+    <link rel="stylesheet" href="css/footer-newsletter-state.css" type="text/css" media="all" />
+    
+    
+    
+    <link rel="stylesheet" href="css/components-style.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="css/utilities-style.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <!-- div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div -->
+    
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-container"> 
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            
+            <div class="preloader-loading-text">LOADING...</div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation (same as index.html) -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">Mik<span>Mac</span></a>
+            
+            <nav class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="features.html">Features</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Search..." id="searchInput">
+                </div>
+                
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation (same as index.html) -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <a href="index.html" class="logo">Mik<span>Mac</span></a>
+            <button class="close-nav" id="closeNav">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="features.html">Features</a>
+            <a href="others.html">Others</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Reach out to us for inquiries, support, or partnership opportunities.</p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Fill out the form or use the contact details below to get in touch with our team.</p>
+                
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Our Location</h3>
+                            <p>123 Tech Park Avenue<br>San Francisco, CA 94107</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone Number</h3>
+                            <p>+1 (555) 123-4567<br>Mon-Fri, 9am-5pm PST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email Address</h3>
+                            <p>info@modernsolutions.com<br>support@modernsolutions.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Working Hours</h3>
+                            <p>Monday - Friday: 9am - 6pm<br>Saturday: 10am - 2pm</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group name-field">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group email-field">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group phone-field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group subject-field">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group message-field">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.158170833042!2d-122.3999726846821!3d37.78688297975765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f10f6a3a1%3A0x8a9f6a8b0f0f0f0f!2s123%20Tech%20Park%20Ave%2C%20San%20Francisco%2C%20CA%2094107!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="cta-content">
+            <h2>Ready to Get Started?</h2>
+            <p>Schedule a free consultation with one of our experts to discuss your project needs.</p>
+            <a href="#" class="btn btn-primary">Schedule a Call</a>
+        </div>
+    </section>
+    
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Modern Solutions</h3>
+                <p>We provide innovative digital solutions that help businesses grow and succeed in the modern marketplace.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="features.html">Features</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <div class="footer-links">
+                    <a href="services.html">Web Development</a>
+                    <a href="services.html">App Development</a>
+                    <a href="services.html">UI/UX Design</a>
+                    <a href="services.html">Digital Marketing</a>
+                    <a href="services.html">Cloud Solutions</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <div class="form-group footer-form-group">
+                        <input type="email" class="form-control" placeholder="Your Email Address" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                    <div class="newsletter-success">
+                        <i class="fas fa-check-circle"></i> Thank you for subscribing!
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Modern Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top-container">
+        <svg class="progress-ring" viewBox="0 0 120 120"> <!-- Double the original size -->
+            <circle class="progress-ring-circle" cx="60" cy="60" r="45" /> <!-- Scaled coordinates -->
+        </svg>
+        <span class="scroll-progress-text">0%</span>
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top hidden" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    
+    <!-- Floating Chat Button -->
+    <div class="chat-container">
+      <button class="chat-button">
+        <svg class="chat-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+          <path fill="currentColor" fill-rule="evenodd" d="M2.435.4a.6.6 0 0 1 1.13 0l.437 1.233a.6.6 0 0 0 .365.365l1.234.437a.6.6 0 0 1 0 1.13l-1.234.437a.6.6 0 0 0-.365.365L3.565 5.6a.6.6 0 0 1-1.13 0l-.437-1.234a.6.6 0 0 0-.365-.365L.4 3.565a.6.6 0 0 1 0-1.13l1.234-.437a.6.6 0 0 0 .365-.365zM7 1.75A.75.75 0 0 1 7.75 1H13a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H4.063L1.28 15.78A.75.75 0 0 1 0 15.25v-8.5a.75.75 0 0 1 1.5 0v6.69l1.723-1.72l.22-.22H13a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 13 2.5H7.75A.75.75 0 0 1 7 1.75m1.47 3.098a.5.5 0 0 0-.94 0l-.365 1.029a.5.5 0 0 1-.304.304l-1.028.364a.5.5 0 0 0 0 .941l1.028.365a.5.5 0 0 1 .304.304l.364 1.028a.5.5 0 0 0 .942 0l.364-1.028a.5.5 0 0 1 .304-.304l1.028-.365a.5.5 0 0 0 0-.941L9.14 6.18a.5.5 0 0 1-.304-.304l-.364-1.029Z" clip-rule="evenodd"/>
+        </svg>
+        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m-2 7a8.96 8.96 0 0 1-4.49-1.198l-.004-.003c-.128-.073-.192-.11-.253-.127a.5.5 0 0 0-.167-.017c-.064.004-.13.026-.262.07l-2.306.769l-.006.002c-.485.162-.727.242-.889.185a.5.5 0 0 1-.304-.304c-.057-.162.024-.405.186-.892v-.003l.77-2.306c.044-.132.065-.198.07-.261a.5.5 0 0 0-.017-.168a1.2 1.2 0 0 0-.127-.252l-.003-.005A9 9 0 1 1 12 21"/>
+        </svg>
+      </button>
+      <div class="chat-options">
+            <a href="#" class="chat-option" style="--delay: 0.1s">
+                <i class="fas fa-question-circle"></i> Help
+            </a>
+            <a href="#" class="chat-option" style="--delay: 0.2s">
+                <i class="fas fa-comments"></i> Chat
+            </a>
+            <a href="#" class="chat-option" style="--delay: 0.3s">
+                <i class="fas fa-phone-alt"></i> Call
+            </a>
+        </div>
+    </div>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    
+    <script src="js/contact-form.js"></script>
+    
+    <script src="js/footer-newsletter-state.js"></script>
+    
+    
+    <script src="js/preloader.js"></script>
+    
+    
+    
+    <script src="js/floatingButtons.js"></script>
+    
+    <!-- Contact Page Specific JS -->
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('hidden');
+            
+            // Form submission
+            const contactForm = document.getElementById('contactForm');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                
+                // Here you would typically send the form data to a server
+                // For this example, we'll just show an alert
+                alert(`Thank you, ${name}! Your message about "${subject}" has been received. We'll contact you at ${email} soon.`);
+                
+                // Reset the form
+                contactForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>

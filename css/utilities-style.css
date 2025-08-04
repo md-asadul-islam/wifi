@@ -1,0 +1,26 @@
+/* Text Utilities */
+.text-center { text-align: center; }
+.text-primary { color: var(--primary); }
+
+/* Spacing Utilities */
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+/* Add more as needed */
+
+/* Flex Utilities */
+.flex { display: flex; }
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Grid Utilities */
+.grid { display: grid; }
+.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+    .mobile-hidden { display: none; }
+}
+

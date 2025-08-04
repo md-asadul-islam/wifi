@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Features - Modern Solutions</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <link rel="stylesheet" href="css/features-style.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="css/components-style.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="css/footer-newsletter-state.css" type="text/css" media="all" />
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <!-- div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div --> 
+    
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-container"> 
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            <div class="preloader-line"><div class="preloader-circle"></div></div>
+            
+            <div class="preloader-loading-text">LOADING...</div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation (same as index.html) -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">Mik<span>Mac</span></a>
+            
+            <nav class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="features.html" class="active">Features</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Search..." id="searchInput">
+                </div>
+                
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation (same as index.html) -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <a href="index.html" class="logo">Modern<span>Solutions</span></a>
+            <button class="close-nav" id="closeNav">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="features.html" class="active">Features</a>
+            <a href="others.html">Others</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- Features Hero Section -->
+    <section class="features-hero">
+        <div class="features-hero-content">
+            <h1>Powerful Features</h1>
+            <p>Discover how our comprehensive features can transform your business operations and customer experience.</p>
+        </div>
+    </section>
+    
+    <!-- Features Tabs Section -->
+    <section class="features-tabs-section">
+        <div class="section-header">
+            <h2>Explore Our Features</h2>
+            <p>Select a category to see the powerful tools we offer</p>
+        </div>
+        
+        <div class="features-tabs">
+            <button class="feature-tab active" data-tab="platform">Platform</button>
+            <button class="feature-tab" data-tab="analytics">Analytics</button>
+            <button class="feature-tab" data-tab="security">Security</button>
+            <button class="feature-tab" data-tab="integration">Integrations</button>
+        </div>
+        
+        <div class="features-tab-content platform">
+            <div class="feature-detail">
+                <div class="feature-text">
+                    <h3>Customizable Dashboard</h3>
+                    <p>Tailor your dashboard to display the metrics and tools that matter most to your business. Drag and drop widgets, choose color schemes, and create personalized views for different team members.</p>
+                    <ul class="feature-benefits">
+                        <li><i class="fas fa-check-circle"></i> Real-time data visualization</li>
+                        <li><i class="fas fa-check-circle"></i> Role-based views</li>
+                        <li><i class="fas fa-check-circle"></i> Exportable reports</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="images/others-img/OT_2 _Best_Practice.jpeg" alt="Customizable Dashboard">
+                </div>
+            </div>
+            
+            <div class="feature-detail reverse">
+                <div class="feature-text">
+                    <h3>Workflow Automation</h3>
+                    <p>Streamline your business processes with our powerful automation tools. Set up triggers and actions to eliminate repetitive tasks and reduce human error.</p>
+                    <ul class="feature-benefits">
+                        <li><i class="fas fa-check-circle"></i> Visual workflow builder</li>
+                        <li><i class="fas fa-check-circle"></i> Conditional logic</li>
+                        <li><i class="fas fa-check-circle"></i> Multi-step automation</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="images/others-img/OT_3_API_Documentation.jpeg" alt="Workflow Automation">
+                </div>
+            </div>
+        </div>
+        
+        <div class="features-tab-content analytics" style="display: none;">
+            <!-- Analytics Features Content -->
+        </div>
+        
+        <div class="features-tab-content security" style="display: none;">
+            <!-- Security Features Content -->
+        </div>
+        
+        <div class="features-tab-content integration" style="display: none;">
+            <!-- Integration Features Content -->
+        </div>
+    </section>
+    
+    <!-- Feature Highlights Section -->
+    <section class="feature-highlights">
+        <div class="section-header">
+            <h2>Key Highlights</h2>
+            <p>Discover what makes our platform stand out from the competition</p>
+        </div>
+        
+        <div class="highlights-container">
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Optimized for speed with 99.9% uptime guarantee and global CDN for fast loading worldwide.</p>
+            </div>
+            
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Enterprise Security</h3>
+                <p>Bank-grade encryption, regular security audits, and compliance with industry standards.</p>
+            </div>
+            
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3>Real-time Sync</h3>
+                <p>Changes sync across all devices instantly, ensuring your team always has the latest data.</p>
+            </div>
+            
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile Optimized</h3>
+                <p>Fully responsive design with dedicated mobile apps for iOS and Android.</p>
+            </div>
+            
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-plug"></i>
+                </div>
+                <h3>API Access</h3>
+                <p>Comprehensive REST API for custom integrations and extended functionality.</p>
+            </div>
+            
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Dedicated support team available around the clock to assist you.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Comparison Section -->
+    <section class="comparison-section">
+        <div class="section-header">
+            <h2>How We Compare</h2>
+            <p>See how Modern Solutions stacks up against the competition</p>
+        </div>
+        
+        <div class="comparison-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Modern Solutions</th>
+                        <th>Competitor A</th>
+                        <th>Competitor B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Customizable Dashboard</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Workflow Automation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Advanced Analytics</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>API Access</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Apps</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>24/7 Support</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Enterprise Security</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Pricing</td>
+                        <td>$$</td>
+                        <td>$$$</td>
+                        <td>$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="features-cta">
+        <div class="cta-content">
+            <h2>Ready to Experience Our Features?</h2>
+            <p>Start your free trial today and see the difference for yourself.</p>
+            <div class="cta-btns">
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-outline">View Demo</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Modern Solutions</h3>
+                <p>We provide innovative digital solutions that help businesses grow and succeed in the modern marketplace.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="features.html">Features</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <div class="footer-links">
+                    <a href="services.html">Web Development</a>
+                    <a href="services.html">App Development</a>
+                    <a href="services.html">UI/UX Design</a>
+                    <a href="services.html">Digital Marketing</a>
+                    <a href="services.html">Cloud Solutions</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <div class="form-group footer-form-group">
+                        <input type="email" class="form-control" placeholder="Your Email Address" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                    <div class="newsletter-success">
+                        <i class="fas fa-check-circle"></i> Thank you for subscribing!
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 Modern Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top-container">
+        <svg class="progress-ring" viewBox="0 0 120 120"> <!-- Double the original size -->
+            <circle class="progress-ring-circle" cx="60" cy="60" r="45" /> <!-- Scaled coordinates -->
+        </svg>
+        <span class="scroll-progress-text">0%</span>
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top hidden" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    
+    <!-- Floating Chat Button -->
+    <div class="chat-container">
+      <button class="chat-button">
+        <svg class="chat-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+          <path fill="currentColor" fill-rule="evenodd" d="M2.435.4a.6.6 0 0 1 1.13 0l.437 1.233a.6.6 0 0 0 .365.365l1.234.437a.6.6 0 0 1 0 1.13l-1.234.437a.6.6 0 0 0-.365.365L3.565 5.6a.6.6 0 0 1-1.13 0l-.437-1.234a.6.6 0 0 0-.365-.365L.4 3.565a.6.6 0 0 1 0-1.13l1.234-.437a.6.6 0 0 0 .365-.365zM7 1.75A.75.75 0 0 1 7.75 1H13a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H4.063L1.28 15.78A.75.75 0 0 1 0 15.25v-8.5a.75.75 0 0 1 1.5 0v6.69l1.723-1.72l.22-.22H13a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 13 2.5H7.75A.75.75 0 0 1 7 1.75m1.47 3.098a.5.5 0 0 0-.94 0l-.365 1.029a.5.5 0 0 1-.304.304l-1.028.364a.5.5 0 0 0 0 .941l1.028.365a.5.5 0 0 1 .304.304l.364 1.028a.5.5 0 0 0 .942 0l.364-1.028a.5.5 0 0 1 .304-.304l1.028-.365a.5.5 0 0 0 0-.941L9.14 6.18a.5.5 0 0 1-.304-.304l-.364-1.029Z" clip-rule="evenodd"/>
+        </svg>
+        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m-2 7a8.96 8.96 0 0 1-4.49-1.198l-.004-.003c-.128-.073-.192-.11-.253-.127a.5.5 0 0 0-.167-.017c-.064.004-.13.026-.262.07l-2.306.769l-.006.002c-.485.162-.727.242-.889.185a.5.5 0 0 1-.304-.304c-.057-.162.024-.405.186-.892v-.003l.77-2.306c.044-.132.065-.198.07-.261a.5.5 0 0 0-.017-.168a1.2 1.2 0 0 0-.127-.252l-.003-.005A9 9 0 1 1 12 21"/>
+        </svg>
+      </button>
+      <div class="chat-options">
+            <a href="#" class="chat-option" style="--delay: 0.1s">
+                <i class="fas fa-question-circle"></i> Help
+            </a>
+            <a href="#" class="chat-option" style="--delay: 0.2s">
+                <i class="fas fa-comments"></i> Chat
+            </a>
+            <a href="#" class="chat-option" style="--delay: 0.3s">
+                <i class="fas fa-phone-alt"></i> Call
+            </a>
+        </div>
+    </div>
+
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    
+    <script src="js/footer-newsletter-state.js"></script>
+    
+    <script src="js/preloader.js"></script>
+    
+    <script src="js/floatingButtons.js" type="text/javascript"></script>
+    <!-- Features Page Specific JS -->
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('hidden');
+            
+            // Features tabs functionality
+            const tabs = document.querySelectorAll('.feature-tab');
+            const tabContents = document.querySelectorAll('.features-tab-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    // Hide all tab contents
+                    tabContents.forEach(content => {
+                        content.style.display = 'none';
+                    });
+                    
+                    // Show the selected tab content
+                    const tabName = tab.getAttribute('data-tab');
+                    document.querySelector(`.features-tab-content.${tabName}`).style.display = 'block';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+project-folder/
+│
+├── index.html ← Home Page
+├── about.html
+├── services.html
+├── contact.html
+├── features.html
+├── others.html
+│
+├── css/
+│ └── style.css
+│
+├── js/
+│ ├── main.js ← General scripts
+│ ├── darkmode.js ← Dark/light toggle logic
+│ ├── scroll.js ← Infinite scroll for customer data
+│ └── nav.js ← Navigation toggle logic
+│
+├── images/
+│ └── (all images used)
+│
+└── assets/
+├── fonts/
+└── icons/
