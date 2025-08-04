@@ -158,8 +158,8 @@
 } */
 
 .chat-button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background: #3498db;
     color: white;
@@ -267,4 +267,15 @@
 .chat-container.active .close-icon {
   opacity: 1;
   transform: translate(-50%, -50%) rotate(0deg);
+}
+
+@media (max-width: 1024px;) {
+   .back-to-top {
+       width: 70px;
+       height: 70px;
+   }
+    .chat-button{
+        width: 70px;
+        height: 70px;
+    }
 }
