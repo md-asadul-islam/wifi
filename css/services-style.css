@@ -66,6 +66,11 @@
   flex-grow: 1;
 }
 
+.btn-outline {
+  border: 2px solid #040303;
+  color: #3616d0;
+}
+  
 .service-features {
   text-align: left;
   margin-bottom: 2rem;
